@@ -40,13 +40,16 @@ const reverseLinkedListIter = (head) => {
     while (current) {
         // set the next to be the next increment 
         next = current.next
+        // point current.next to previous for so it is point backwards to previous
         current.next = previous
         
+        // these two steps are to increment the to the next nodes in the linked list 
         previous = current
         current = next 
     }
     
-    return previous 
+    // once while loops is done, previous is the new head that has all the nodes pointed in reversed order
+    return previous
 }
 
 const reverseLinkedListRecur = (current, previous) => {
