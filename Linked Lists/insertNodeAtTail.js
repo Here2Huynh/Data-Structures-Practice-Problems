@@ -1,5 +1,5 @@
 // given
-const SinglyLinkedListNode = ( data ) => {
+let SinglyLinkedListNode = ( data ) => {
     this.data = data
     this.next = null
 }
