@@ -3,7 +3,7 @@
 // further down until the arrays have 2 elements
 // then piece all the split up arrays back up into a new array 
 // starting with smallest element first 
-// time complexity = O(nlog(n))
+// time complexity = O(nlog(n)), 
 // space complextiy = O(n), a new array has to be created 
 
 let test = [2,6,9,3,7,8,4,5]
@@ -42,4 +42,4 @@ const mergeSort = (left, right) => {
 }
 
 console.log(splitArray(test))
-console.log(splitArray(test2))
+// console.log(splitArray(test2))
