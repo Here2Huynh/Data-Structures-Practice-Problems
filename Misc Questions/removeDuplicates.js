@@ -1,13 +1,12 @@
 
-let arr = [1, 2, 3, 5, 1, 5, 9, 1, 2, 8]
-
+let test = [4,3,5,2,7,8,9,6,5,3,1,3,4]
+let test2 = [1,1,1,1,1,1,2,2,2,3,4,5,5,5,5,5,7]
 const removeDuplicates = (arr) => {
     return Array.from(new Set(arr))
 }
 
-
-console.log(removeDuplicates(arr))
-
+console.log(removeDuplicates(test))
+console.log(removeDuplicates(test2))
 
 const removeDuplicates2 = (arr) => {
     let seen = {}
